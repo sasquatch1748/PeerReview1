@@ -75,7 +75,8 @@ def game_loop():
                     print("Sorry, you have tupled out. Your score that round is 0.")
                     score += 0
                     break
-                
+
+                #Adding error handling if input is something different than yes or no
                 
                 # Scnenario 2: two dice are the same
                 elif dice1 == dice2 and dice3 != dice2:
@@ -141,7 +142,7 @@ def game_loop():
                 end_game = True
                 break
                             
-            
+            #I think a head to head scoreboard of the current game session would be a cool feature that would be beneficial
             
 game_loop()
             
